@@ -8,7 +8,9 @@
  */
 
 // Your code :
-
+let circular= {
+    circular: 'object',
+}
 //* Begin of tests
 const assert = require('assert')
 

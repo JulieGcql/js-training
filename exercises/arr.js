@@ -7,8 +7,7 @@
  */
 
 // Your code :
-
-//* Begin of tests
+const arr = [4, '2'];
 const assert = require('assert')
 
 assert.strictEqual(Array.isArray(arr), true)
