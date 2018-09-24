@@ -8,9 +8,11 @@
  */
 
 // Your code :
-let circular= {
-    circular: 'object',
-}
+    class circular {
+        constructor(circular){
+            this.circular = circular;
+        }
+    }
 //* Begin of tests
 const assert = require('assert')
 

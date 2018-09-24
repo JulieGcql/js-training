@@ -8,7 +8,10 @@
  */
 
 // Your code :
-
+function getFirst(tableau){
+    let first = tableau[0];
+    return first
+}
 //* Begin of tests
 const assert = require('assert')
 

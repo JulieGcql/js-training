@@ -9,6 +9,10 @@
 
 // Your code :
 
+function getLast(tableau){
+    return tableau[tableau.length -1]
+}
+
 //* Begin of tests
 const assert = require('assert')
 
