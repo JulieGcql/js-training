@@ -8,11 +8,11 @@
  */
 
 // Your code :
-    class circular {
-        constructor(circular){
-            this.circular = circular;
+    let circular = {
+        get circular() {return this}
         }
-    }
+
+
 //* Begin of tests
 const assert = require('assert')
 

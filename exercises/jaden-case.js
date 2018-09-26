@@ -10,10 +10,16 @@
  *
  */
 
-
+function jadenCase(arr){
+    let word = arr.split(" ");
+    for(let i=0; i < word.length; i++){
+        word[i] = word[i].charAt(0).toUpperCase();
+    }
+    return word.join(" ");
+}
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+jadenCase('coucou JULIE tu vas bien')
 // End of tests */
